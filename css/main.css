@@ -1,5 +1,7 @@
 *{
-    margin: 0 auto;
+    margin: 0 ;
+
+
 }
 .contenr
 {
@@ -7,7 +9,50 @@
 
 
 }
-.hidderM
+.hidderM {
+
+    width: 100%;
+    position: fixed;
+    background-color: blanchedalmond;
+}
+#logo
+{
+    float: left;
+    width: 250px;
+    padding-right: 10px;
+}
+#logo img
+{
+    width: 250px;
+
+}
+.hidderM ul li
 {
 
+    display: inline;
+}
+.hidderM ul li a
+{   display: block;
+    text-decoration: none;
+
+    text-align: center;
+    padding: 22px 18px;
+    font-size: 20px;
+    float: left;
+}
+.hidderM ul li a:hover
+{
+    background-color: white;
+
+}
+#Ong
+{
+    float: right;
+}
+
+.banner
+{
+    width: 100%;
+    background-color: rosybrown;
+    height: 1200px;
 }
